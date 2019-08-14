@@ -1,0 +1,62 @@
+<! doctype html>
+<html>
+  <head>
+    <meta charset = " utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>✨Divya's News letter✨</title>
+
+  </head>
+  <body>
+    <fieldset>
+      <legend>Newsletter Subscription</legend>
+      <form action="mailto:divya1shahi@gmail.com" method="post" enctype="plain/text" >
+          <label for="name">Enter User's name: </label>
+          <input type="text" name="name" id="name" required minlength="1" maxlength="20" size="20"><br><br>
+          <label for="email">Enter your password: </label>
+          <input type="password" name="email" id="email" required minlength="1" maxlength="20" size="20"><br><br>
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required minlength="1" maxlength="20" size="20"><br><br>
+          <label>How did you get to hear about this site</label>
+          <input type="text" name="info" id="info" minlength="0" maxlength="100" size="100"><br><br>
+
+
+          <fieldset>
+            <legend>What are you most interested in</legend>
+              <input type="checkbox" id="coding" name="coding" value="">Coding<br>
+              <input type="checkbox" id="Software Development" name="Software Development" value="">Software Development<br>
+              <input type="checkbox" id="Management" name="Management" value="">Management <br>
+          </fieldset> <br>
+
+          <label for="pet-select">Choose a pet:</label>
+
+          <select id="">
+              <option value="">--Choose your eduction level--</option>
+              <option value=" High School">High School</option>
+              <option value="Senior Secondary">Senior Secondary</option>
+              <option value="Graduation">Graduation</option>
+              <option value="Under graduate">Under graduate</option>
+              <option value="Post graduation">Post graduation</option>
+              <option value="Professional(job)">Professional(job)</option>
+          </select><br>
+
+          <p>Select a your age group:</p>
+              <input type="radio"  name="age" value="below20">
+              <label for="">below 20</label><br>
+              <input type="radio" name="age" value="above20">
+              <label for="">20 and above</label><br>
+            <p>Enter your death of birth</p>
+            <input type="date">
+
+              <p>Please select your gender:</p>
+              <input type="radio" name="gender" value="male"> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other<br>
+              <label for="">Have any question ,ask here</label><br>
+              <textarea name="Your question" id="" cols="30" rows="10"> </textarea> <br>
+              <input type="submit" value="Subscribe!">
+
+        </form>
+
+    </fieldset>
+
+  </body>
+</html>
